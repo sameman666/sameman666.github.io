@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  padding: 30px 20px 0px;
+}
+
+span {
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+header  {
+  min-height: 106px;
+  margin-bottom: 20px;
+}
+
+.word {
+  font-size: 40px;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.card {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 80px;
+  background: radial-gradient(circle, #ffffff, #9adfff);
+}
+
+.correct-answer {
+  background: radial-gradient(circle, #ffffff, #75ff9f);
+}
+
+.wrong-answer {
+  background: radial-gradient(circle, #ffffff, #ff757c);
+}
