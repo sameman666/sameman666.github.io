@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.scss';
-import words from './words.json';
+import dictionary from './dictionary.json';
 
 const App = () => {
-  if (words.length < 4) {
-    throw new Error("Not enough words in dictionary");
+  if (dictionary.length < 4) {
+    throw new Error("Not enough words in dictionary (min 4)");
   }
 
   const shuffleArray = (array) => {
@@ -18,7 +18,7 @@ const App = () => {
   const getRandomQuestion = () => {
 
     const getRandomAnswer = (existingAnswer, currentAnswers) => {
-      const filteredWords = words.filter(word => word.translation !== existingAnswer)
+      const filteredWords = dictionary.filter(word => word.translation !== existingAnswer)
       const randomAnswer = filteredWords[Math.floor(Math.random() * filteredWords.length)].translation
       if (!currentAnswers.includes(randomAnswer)) {
         return randomAnswer
@@ -27,7 +27,7 @@ const App = () => {
       }
     }
 
-    const word = words[Math.floor(Math.random() * words.length)]
+    const word = dictionary[Math.floor(Math.random() * dictionary.length)]
     const question = word.word
     const answer = word.translation
 
@@ -53,7 +53,14 @@ const App = () => {
     setState(getRandomQuestion());
   };
 
+  let allowClick = true
+
   const checkAnswer = (answer, e) => {
+    if (!allowClick) {
+      return
+    }
+    allowClick = false
+
     const card = e.currentTarget
   
     if (answer === state.answer) {
