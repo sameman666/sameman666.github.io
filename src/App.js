@@ -2,20 +2,24 @@ import { useState } from 'react';
 import './App.scss';
 import dictionary from './dictionary.json';
 
+let counter = 1
+
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+shuffleArray(dictionary)
+
 const App = () => {
   if (dictionary.length < 4) {
     throw new Error("Not enough words in dictionary (min 4)");
   }
 
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-
-  const getRandomQuestion = () => {
+  const getNextQuestion = (counter) => {
 
     const getRandomAnswer = (existingAnswer, currentAnswers) => {
       const filteredWords = dictionary.filter(word => word.translation !== existingAnswer)
@@ -27,7 +31,7 @@ const App = () => {
       }
     }
 
-    const word = dictionary[Math.floor(Math.random() * dictionary.length)]
+    const word = dictionary[counter - 1]
     const question = word.word
     const answer = word.translation
 
@@ -47,10 +51,10 @@ const App = () => {
 
   }
 
-  const [state, setState] = useState(getRandomQuestion());
+  const [state, setState] = useState(getNextQuestion(counter));
 
-  const setNewRandomQuestion = () => {
-    setState(getRandomQuestion());
+  const setNextQuestion = (counter) => {
+    setState(getNextQuestion(counter));
   };
 
   let allowClick = true
@@ -59,7 +63,9 @@ const App = () => {
     if (!allowClick) {
       return
     }
+
     allowClick = false
+    counter = counter >= dictionary.length ? 1 : ++counter
 
     const card = e.currentTarget
   
@@ -67,7 +73,7 @@ const App = () => {
       card.classList.add("correct-answer")
       setTimeout(() => {
         card.classList.remove("correct-answer")
-        setNewRandomQuestion()
+        setNextQuestion(counter)
       }, 800);
     } else {
       const root = card.parentElement
@@ -81,7 +87,7 @@ const App = () => {
       setTimeout(() => {
         card.classList.remove("wrong-answer")
         root.querySelector(".correct-answer").classList.remove("correct-answer")
-        setNewRandomQuestion()
+        setNextQuestion(counter)
       }, 2000);
     }
   }
@@ -90,6 +96,7 @@ const App = () => {
     <>
       <header>
         <div className='question word'>{state.question}</div>
+        <p>kysymys {counter} / {dictionary.length}</p>
       </header>
       {state.answers.map(answer => (
         <div onClick={(e) => checkAnswer(answer, e)} key={answer} className='card word'>

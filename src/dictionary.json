@@ -158,5 +158,465 @@
   {
     "word": "menestystä!",
     "translation": "успехов!"
+  },
+  {
+    "word": "CD-levy",
+    "translation": "компакт-диск"
+  },
+  {
+    "word": "ammatikoulu (college)",
+    "translation": "колледж"
+  },
+  {
+    "word": "kokis",
+    "translation": "кока кола"
+  },
+  {
+    "word": "tutustuminen",
+    "translation": "знакомство"
+  },
+  {
+    "word": "kansallisuus",
+    "translation": "национальность"
+  },
+  {
+    "word": "minkä maalainen sinä olet?",
+    "translation": "кто ты по национальности?"
+  },
+  {
+    "word": "kääntää",
+    "translation": "перевести"
+  },
+  {
+    "word": "nettiongelma",
+    "translation": "проблемы с интернетом"
+  },
+  {
+    "word": "saanko kysyä?",
+    "translation": "могу спросить?"
+  },
+  {
+    "word": "tulee",
+    "translation": "идёт"
+  },
+  {
+    "word": "nuku hyvin",
+    "translation": "спи хорошо"
+  },
+  {
+    "word": "huomenna",
+    "translation": "завтра"
+  },
+  {
+    "word": "ei kestä",
+    "translation": "незачто"
+  },
+  {
+    "word": "laiva",
+    "translation": "корабль"
+  },
+  {
+    "word": "kesä",
+    "translation": "лето"
+  },
+  {
+    "word": "kotitehtävä",
+    "translation": "домашнее задание"
+  },
+  {
+    "word": "saanko esittäytyä?",
+    "translation": "могу представиться?"
+  },
+  {
+    "word": "kayntikorttini",
+    "translation": "визитная карточка"
+  },
+  {
+    "word": "hitaasti",
+    "translation": "медленно"
+  },
+  {
+    "word": "auttaa",
+    "translation": "помогать"
+  },
+  {
+    "word": "tietysti",
+    "translation": "конечно же, разумеется"
+  },
+  {
+    "word": "en ymmärrä",
+    "translation": "не понимаю"
+  },
+  {
+    "word": "haku",
+    "translation": "поиск, резюме"
+  },
+  {
+    "word": "hirvi",
+    "translation": "лось"
+  },
+  {
+    "word": "hinta",
+    "translation": "цена"
+  },
+  {
+    "word": "hillo",
+    "translation": "варенье"
+  },
+  {
+    "word": "hiiri",
+    "translation": "мышь"
+  },
+  {
+    "word": "MiNÄ vuonna olet syntynyt?",
+    "translation": "в каком году ты родился?"
+  },
+  {
+    "word": "fiksu",
+    "translation": "умный"
+  },
+  {
+    "word": "siviilisääty",
+    "translation": "семейное положение"
+  },
+  {
+    "word": "vaimo",
+    "translation": "жена"
+  },
+  {
+    "word": "aviomies",
+    "translation": "муж (официально)"
+  },
+  {
+    "word": "avomies",
+    "translation": "муж (не официально)"
+  },
+  {
+    "word": "puoliso",
+    "translation": "супруг, супруга, вторая половина"
+  },
+  {
+    "word": "seurustella",
+    "translation": "встречаться (про отношения)"
+  },
+  {
+    "word": "olla sunteessa",
+    "translation": "быть в отношениях"
+  },
+  {
+    "word": "olla kinloissa",
+    "translation": "быть помолвленным"
+  },
+  {
+    "word": "erota",
+    "translation": "развестись"
+  },
+  {
+    "word": "aviolitto",
+    "translation": "официальный брак"
+  },
+  {
+    "word": "avolitto",
+    "translation": "не официальный брак"
+  },
+  {
+    "word": "sulhanen",
+    "translation": "жених"
+  },
+  {
+    "word": "morsian",
+    "translation": "невеста"
+  },
+  {
+    "word": "sinkku",
+    "translation": "single"
+  },
+  {
+    "word": "olen vappa",
+    "translation": "свободный (не в отношениях)"
+  },
+  {
+    "word": "harvoin",
+    "translation": "редко"
+  },
+  {
+    "word": "töissä (työssä)",
+    "translation": "при работе"
+  },
+  {
+    "word": "tällä hetkellä",
+    "translation": "в данный момент"
+  },
+  {
+    "word": "olen työtön",
+    "translation": "я безработный"
+  },
+  {
+    "word": "vuonna",
+    "translation": "год"
+  },
+  {
+    "word": "syntynyt",
+    "translation": "родился"
+  },
+  {
+    "word": "ikkuna",
+    "translation": "окно"
+  },
+  {
+    "word": "ilmoitus",
+    "translation": "объявление"
+  },
+  {
+    "word": "ilma",
+    "translation": "погода"
+  },
+  {
+    "word": "jalka",
+    "translation": "нога"
+  },
+  {
+    "word": "johtaja",
+    "translation": "директор"
+  },
+  {
+    "word": "luonne",
+    "translation": "характер"
+  },
+  {
+    "word": "adjektiivit",
+    "translation": "прилагательное"
+  },
+  {
+    "word": "millainen",
+    "translation": "какой"
+  },
+  {
+    "word": "ahkera",
+    "translation": "трудолюбивый"
+  },
+  {
+    "word": "itsepäinen",
+    "translation": "упрямый"
+  },
+  {
+    "word": "utelias",
+    "translation": "любопытный"
+  },
+  {
+    "word": "puhelias",
+    "translation": "разговорчивый"
+  },
+  {
+    "word": "innokas",
+    "translation": "активный"
+  },
+  {
+    "word": "luotettava",
+    "translation": "надежный"
+  },
+  {
+    "word": "rohkea",
+    "translation": "смелый"
+  },
+  {
+    "word": "vaativa",
+    "translation": "требовательный"
+  },
+  {
+    "word": "luettava",
+    "translation": "начитанный"
+  },
+  {
+    "word": "luonteeltasi (luonteeltani)",
+    "translation": "ты по характеру (я по характеру)"
+  },
+  {
+    "word": "esine",
+    "translation": "объект, вещь"
+  },
+  {
+    "word": "esitys",
+    "translation": "презентация, шоу"
+  },
+  {
+    "word": "eteinen",
+    "translation": "коридор"
+  },
+  {
+    "word": "etana",
+    "translation": "улитка"
+  },
+  {
+    "word": "farmari",
+    "translation": "фермер"
+  },
+  {
+    "word": "fluusa",
+    "translation": "грипп"
+  },
+  {
+    "word": "fasaani",
+    "translation": "фазан"
+  },
+  {
+    "word": "farkut",
+    "translation": "джинсы"
+  },
+  {
+    "word": "filmi",
+    "translation": "фильм"
+  },
+  {
+    "word": "Minkä ikainen olet?",
+    "translation": "Сколько тебе лет?"
+  },
+  {
+    "word": "tarkista",
+    "translation": "проверять"
+  },
+  {
+    "word": "huomio",
+    "translation": "внимание"
+  },
+  {
+    "word": "Olen ... vuotta",
+    "translation": "мне ... лет"
+  },
+  {
+    "word": "harjoittele",
+    "translation": "упражняться"
+  },
+  {
+    "word": "pääkaupunki",
+    "translation": "столица"
+  },
+  {
+    "word": "tervehtiminen",
+    "translation": "приветствие"
+  },
+  {
+    "word": "paljon vettä",
+    "translation": "много водоемов"
+  },
+  {
+    "word": "pinta-ala",
+    "translation": "площадь поверхности"
+  },
+  {
+    "word": "naapurimaita",
+    "translation": "соседние страны"
+  },
+  {
+    "word": "itämeri",
+    "translation": "балтийское море"
+  },
+  {
+    "word": "saaristo",
+    "translation": "архипелаг"
+  },
+  {
+    "word": "olen ollut",
+    "translation": "я пребываю (проживаю)"
+  },
+  {
+    "word": "viihdyn",
+    "translation": "провожу время"
+  },
+  {
+    "word": "tilaa (paljon tilaa)",
+    "translation": "места (много места)"
+  },
+  {
+    "word": "ulkomaalaisia",
+    "translation": "иностранцы"
+  },
+  {
+    "word": "yli",
+    "translation": "над"
+  },
+  {
+    "word": "asukasluku",
+    "translation": "население"
+  },
+  {
+    "word": "maahanmuuttajia",
+    "translation": "иммигранты"
+  },
+  {
+    "word": "minäkin",
+    "translation": "я тоже"
+  },
+  {
+    "word": "eli",
+    "translation": "или"
+  },
+  {
+    "word": "seudulla",
+    "translation": "в регионе"
+  },
+  {
+    "word": "rannikolla",
+    "translation": "на побережье"
+  },
+  {
+    "word": "toinen",
+    "translation": "второй"
+  },
+  {
+    "word": "virallinen kieli",
+    "translation": "официальный язык"
+  },
+  {
+    "word": "napapiiri",
+    "translation": "полярный круг"
+  },
+  {
+    "word": "alkuperaiskansa",
+    "translation": "абориген"
+  },
+  {
+    "word": "koko",
+    "translation": "весь"
+  },
+  {
+    "word": "kotikielenään",
+    "translation": "в качестве родного языка"
+  },
+  {
+    "word": "tavallisia",
+    "translation": "обычные"
+  },
+  {
+    "word": "asukkaita",
+    "translation": "жители"
+  },
+  {
+    "word": "noin",
+    "translation": "около"
+  },
+  {
+    "word": "kuten me",
+    "translation": "как мы"
+  },
+  {
+    "word": "tiedätko?",
+    "translation": "знаешь?"
+  },
+  {
+    "word": "perusttetu",
+    "translation": "основан"
+  },
+  {
+    "word": "itsenäisen",
+    "translation": "независимый"
+  },
+  {
+    "word": "sydän",
+    "translation": "сердце"
+  },
+  {
+    "word": "valtionevvoston linna",
+    "translation": "дом правительства"
   }
 ]
